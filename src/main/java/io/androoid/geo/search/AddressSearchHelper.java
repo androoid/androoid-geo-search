@@ -27,7 +27,7 @@ public class AddressSearchHelper extends AsyncTask<String, Integer, GeoPoint> {
 
 	public AsyncGeoResponse delegate = null;
 	private JsonNominatimClient nominatiumClient = new JsonNominatimClient(new DefaultHttpClient(),
-			"your-email@androoid.io");
+			"geo-search-library@androoid.io");
 
 	/**
 	 * Method that returns GEO information about some address
